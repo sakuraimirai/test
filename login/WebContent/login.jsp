@@ -6,9 +6,17 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<title>ログイン成功</title>
+<title>ログイン画面</title>
 </head>
 <body>
 
 </body>
+   <s:form action="LoginAction">
+     <s:textfield name="name"/>
+     <s:password name="password"/>
+     <s:submit value="ログイン"/>
+     </s:form>
+
+</body>
+
 </html>
